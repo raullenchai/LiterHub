@@ -5,4 +5,11 @@ api_version: 1
 
 handlers:
 - url: /.*
-  script: helloworld.py
+  script: home.py
+  
+- url: /tasks/.*
+  script: admin.py
+  login: admin
+ 
+- url: /.*
+  script: not_found.py

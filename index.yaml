@@ -1,7 +1,5 @@
 indexes:
 - kind: Greeting
-  ancestor: yes
   properties:
   - name: url
   - name: tried_date
-    direction: desc
