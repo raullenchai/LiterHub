@@ -1,7 +1,7 @@
 cron:
 - description: daily summary job
-  url: /tasks/search
+  url: /admin/search
   schedule: every 3 hours
 - description: monday morning mailout
-  url: /tasks/send
+  url: /admin/send
   schedule: every 12 hours
